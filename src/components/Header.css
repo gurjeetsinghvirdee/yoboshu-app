@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+    background-image: linear-gradient(to right, #9c8adc, #9582d8, #8f7bd5, #8873d1, #816ccd, #8066cd, #7f60cc, #7f5acb, #8553cd, #8b4cce, #9243ce, #9a38ce);
+}
+
+.nav {
+    padding: 30px;
+}
+
+.nav_logo {
+    padding-top: 20px;
+}
+
+.nav_logo img{
+    object-fit: contain;
+    height: 45px;
+}
+
+.header_nav .link {
+    margin: 0 30px 0 0;
+    text-decoration: none;
+    color: white;
+}
+

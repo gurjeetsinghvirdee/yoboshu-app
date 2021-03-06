@@ -1,0 +1,53 @@
+.trainercardsrow {
+    display: inline-flex;
+}
+
+.column {
+    padding: .625rem 9.99rem .625rem 9.99rem;
+}
+
+.column img {
+    float: left;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.column h3 {
+    display: inline-block;
+    padding: 0 0 0 50px;
+}
+
+.column h4 {
+    display: flex;
+    padding: 0 0 0 50px;
+}
+
+.body {
+    display: flex;
+    background-color: rgba(226, 118, 226, 0.322);
+}
+
+.profile {
+    display: block;
+}
+
+.profile span{
+    display: block;
+    padding: 8px 0 0 150px;
+}
+
+.btn button {
+    background-color: rgba(112, 14, 112, 0.925);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 50px 150px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+
