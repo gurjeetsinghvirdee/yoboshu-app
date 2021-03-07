@@ -79,7 +79,7 @@ const data = {
             value:'Certified',
             trainingdays:'Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday',
             location:'Amritsar, Punjab',
-            languages:['Hindi','English','Punjabi'],
+            languages:['English','Punjabi'],
             education:'B.Sc in Sport and Exercise Science',
             medicalconditionexperience:'Injury | Smoking Addiction | Anxiety | Drinking Addiction | Lung Disease',
             about:'I am a professional personal trainer fitness trainer and I am here to make you workout at home.',
