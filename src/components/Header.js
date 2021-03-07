@@ -15,11 +15,11 @@ function Header() {
             </div>
             <div className="nav">
                 <nav className="header_nav">
-                    <Link to="/" className="link"><AiFillHome /> Home</Link>
-                    <Link to="/trainers"  className="link"><FaRunning /> Trainers</Link>
-                    <Link to="/boot camp"  className="link"><FaUsers /> Boot Camp</Link>
-                    <Link to="/fitness tools"  className="link"><BsGraphUp /> Fitness tools</Link>
-                    <Link to="/more" className="link"><RiAccountCircleFill /> My Account</Link>
+                    <Link to="/" className="link"><AiFillHome className="icon"/> Home</Link>
+                    <Link to="/trainers"  className="link"><FaRunning className="icon"/> Trainers</Link>
+                    <Link to="#"  className="link"><FaUsers className="icon"/> Boot Camp</Link>
+                    <Link to="#"  className="link"><BsGraphUp className="icon"/> Fitness tools</Link>
+                    <Link to="#" className="link"><RiAccountCircleFill className="icon"/> My Account</Link>
                 </nav>
             </div>
         </div>

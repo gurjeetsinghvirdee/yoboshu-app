@@ -1,48 +1,39 @@
 import React from 'react'
 import './TrainerCard.css'
 import { Link } from 'react-router-dom'
+import { GoDeviceCameraVideo } from "react-icons/go";
+import { AiFillHome } from "react-icons/ai";
+import { FaTree } from "react-icons/fa";
+import { FaRupeeSign } from "react-icons/fa";
+import { FaTicketAlt } from "react-icons/fa";
+import { GiStarFormation } from "react-icons/gi";
 
 function TrainerCard({prop}) {
     return (
-        <div className="trainercards">
-            <div className="trainercardsrow">
-                <Link to="/trainermain/:id" className="link"></Link>
-                <div className="column">
-                    <img src={prop.img}/>
-                    <h3>{prop.name}</h3>
-                    <h4>{prop.experience}</h4>
-                    <h4>{prop.expertise}</h4>
+        <div className="trainer__card">
+            <Link to="/trainermain/:id" className="link">
+                <div className="trainercard__row1">
+                    <div className="trainer__img">
+                        <img src={prop.img}/>
+                    </div>
+                    <div className="trainer__info">
+                            <h3>{prop.name}</h3>
+                            <h4><GiStarFormation className="icon"/>Experience: {prop.experience}</h4>
+                            <h4><FaTicketAlt className="icon"/>{prop.expertise}</h4>
+                    </div>
                 </div>
-                <div className="column">
-                    <img src={prop.img}/>
-                    <h3>{prop.name}</h3>
-                    <h4>{prop.experience}</h4>
-                    <h4>{prop.expertise}</h4>
+                <div className="trainercard__row2">
+                    <div className="profile">
+                        <span><GoDeviceCameraVideo className="icon"/>{prop.modeoftraining1}</span>
+                        <span><AiFillHome className="icon"/>{prop.modeoftraining2}</span>
+                        <span><FaTree className="icon"/>{prop.modeoftraining3}</span>
+                        <h3><FaRupeeSign className="icon"/>{prop.pricing}</h3>
+                    </div>
+                    <div className="btn">
+                        <button>B O O K</button>
+                    </div>
                 </div>
-            </div>
-            <div className="body">
-                <div className="profile">
-                    <span>{prop.modeoftraining1}</span>
-                    <span>{prop.modeoftraining2}</span>
-                    <span>{prop.modeoftraining3}</span>
-                    <span>{prop.pricing}</span>
-                </div>
-                <div className="btn">
-                    <button>BOOK</button>
-                </div>
-
-                <div className="profile">
-                    <span>{prop.modeoftraining1}</span>
-                    <span>{prop.modeoftraining2}</span>
-                    <span>{prop.modeoftraining3}</span>
-                    <span>{prop.pricing}</span>
-                </div>
-                <div className="btn">
-                    <button>BOOK</button>
-                </div>
-            </div>
-            
-           
+            </Link>
         </div>
     )
 }
