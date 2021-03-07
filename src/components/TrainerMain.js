@@ -2,6 +2,13 @@ import React from 'react';
 import { useParams } from 'react-router';
 import "./TrainerMain.css";
 import data from './data'
+import { FaRupeeSign } from "react-icons/fa";
+import { AiFillSafetyCertificate } from "react-icons/ai";
+import { MdLocationOn } from "react-icons/md";
+import { GoDeviceCameraVideo } from "react-icons/go";
+import { AiFillHome } from "react-icons/ai";
+import { FaTree } from "react-icons/fa";
+import { IoGlobeOutline } from "react-icons/io5";
 
 function TrainerMain() {
     const params = useParams()
@@ -21,8 +28,8 @@ function TrainerMain() {
                         <h3>{trainer.experience}<span> of Experience</span></h3>
                     </div>
                     <div className="trainer__value">
-                        <h3>{trainer.pricing}<span> Per Session</span></h3>
-                        <span>{trainer.value}</span>
+                        <h3><FaRupeeSign className="icons"/>{trainer.pricing}<span> Per Session</span></h3>
+                        <span><AiFillSafetyCertificate className="icons"/>{trainer.value}</span>
                     </div>
                 </div>
                 <div className="about">
@@ -41,13 +48,13 @@ function TrainerMain() {
                 </div>
                 <div className="location">
                     <span>My Location</span>
-                    <p>{trainer.location}</p>
+                    <p><MdLocationOn className="icons"/>{trainer.location}</p>
                 </div>
                 <div className="traing">
                     <span>Mode of Training</span>
-                    <p>{trainer.modeoftraining1}</p>
-                    <p>{trainer.modeoftraining2}</p>
-                    <p>{trainer.modeoftraining3}</p>
+                    <p><GoDeviceCameraVideo className="icons"/>{trainer.modeoftraining1}</p>
+                    <p><AiFillHome className="icons"/>{trainer.modeoftraining2}</p>
+                    <p><FaTree className="icons"/>{trainer.modeoftraining3}</p>
                 </div>
                 <div className="availability">
                     <span>Availability</span>
@@ -88,7 +95,7 @@ function TrainerMain() {
                         <span>Languages</span>
                         {
                             trainer.languages.map((item)=>{
-                                return <p>{item}</p>
+                                return <p><IoGlobeOutline className="icons"/>{item}</p>
                             })
                         }
                     </div>
@@ -103,6 +110,14 @@ function TrainerMain() {
                                 return <p>{item}</p>
                             })
                         }
+                    </div>
+                    <div className="bttn">
+                        <div className="join">
+                            <button>JOIN BOOTCAMP</button>
+                        </div>
+                        <div className="book">
+                            <button>BOOK NOW</button>
+                        </div>
                     </div>
                 </div>
             </div>

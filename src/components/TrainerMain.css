@@ -90,6 +90,7 @@ span {
     padding: 0.2rem 0.8rem;
     margin-right: 0.5rem;
 }
+
 .availability p {
     font-size: 0.8rem;
 }
@@ -110,15 +111,23 @@ span {
 }
 
 .card span {
+    color: whitesmoke;
     border-bottom: 1px solid gray;
     padding-bottom: 0.5rem;
 }
 
-.cards {
+.card {
+    background-image: linear-gradient(to right, #9c8adc, #9582d8, #8f7bd5, #8873d1, #816ccd, #8066cd, #7f60cc, #7f5acb, #8553cd, #8b4cce, #9243ce, #9a38ce);
+}
+
+
+.cards span {
     border: 1px solid gray;
-    padding: 0.6rem 0;
-    text-align:center ;
+    text-align:center;
+    padding: .5rem;
+    color: whitesmoke;
     margin-bottom: 1rem;
+    background-image: linear-gradient(to right, #9c8adc, #9582d8, #8f7bd5, #8873d1, #816ccd, #8066cd, #7f60cc, #7f5acb, #8553cd, #8b4cce, #9243ce, #9a38ce);
 }
 
 .days p {
@@ -137,6 +146,41 @@ span {
     border-bottom: 1px solid rgb(243, 233, 233);
     padding-bottom: 1rem;
     margin-bottom: 1rem;
+}
+
+.trainer__interest {
+    border-bottom: 1px solid rgb(243, 233, 233);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.icons {
+    position: relative;
+    top: 1px;
+    right: 5px;
+    font-size: .7rem;
+    color: purple;
+}
+
+.bttn button{
+    background-color: rgb(141, 30, 141);
+    float: left;
+    border: none;
+    color: whitesmoke;
+    width: 50%;
+    padding: .5rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.join button {
+    background-color: rgb(184, 184, 231);
+}
+
+.join a {
+    text-decoration: none;
+    border: none;
+    color: white;
 }
 
 
