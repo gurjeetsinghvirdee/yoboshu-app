@@ -4,7 +4,7 @@ import "./Trainermain.css";
 function TrainerMain() {
     return (
         <div>
-            <h1></h1>
+            <h1>h</h1>
         </div>
     )
 }
