@@ -11,7 +11,7 @@ function Header() {
     return (
         <div className="header">
             <div className="nav_logo">
-            <a href="#"><img src="https://www.yoboshu.com/img/yoboshu-logo.png" alt="Yoboshu"/></a>
+            <a href="/"><img src="https://www.yoboshu.com/img/yoboshu-logo.png" alt="Yoboshu"/></a>
             </div>
             <div className="nav">
                 <nav className="header_nav">

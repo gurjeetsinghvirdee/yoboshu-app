@@ -11,10 +11,10 @@ import { GiStarFormation } from "react-icons/gi";
 function TrainerCard({prop}) {
     return (
         <div className="trainer__card">
-            <Link to="/trainermain/:id" className="link">
+            <Link to={`trainermain/${prop._id}`} className="link">
                 <div className="trainercard__row1">
                     <div className="trainer__img">
-                        <img src={prop.img}/>
+                        <img src={prop.img1} alt="image"/>
                     </div>
                     <div className="trainer__info">
                             <h3>{prop.name}</h3>
@@ -27,7 +27,7 @@ function TrainerCard({prop}) {
                         <span><GoDeviceCameraVideo className="icon"/>{prop.modeoftraining1}</span>
                         <span><AiFillHome className="icon"/>{prop.modeoftraining2}</span>
                         <span><FaTree className="icon"/>{prop.modeoftraining3}</span>
-                        <h3><FaRupeeSign className="icon"/>{prop.pricing}</h3>
+                        <h3><FaRupeeSign className="icon"/>{prop.pricing} / session</h3>
                     </div>
                     <div className="btn">
                         <button>B O O K</button>

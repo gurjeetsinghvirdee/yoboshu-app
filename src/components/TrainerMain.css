@@ -1,0 +1,142 @@
+.trainermain {
+    display: flex;
+    
+}
+.trainermain__img {
+    width: 60%;
+    text-align: center;
+}
+
+.trainermain__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.trainermain__right {
+    width: 40%;
+    margin: 2rem 2rem 1rem 0.5rem;
+    border: 1px solid rgb(233, 223, 223);
+    padding: 1rem;
+}
+
+.trainermain__right> div {
+    border-bottom: 1px solid rgb(243, 233, 233);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.trainermain__img >img {
+    margin: 2em 0.5em 1em 0.5em;
+    width: 20em;
+    height: 20em;
+    border: 1px solid rgba(211,211,211,0.5);
+    object-fit: contain;	
+}
+
+.trainermain__img > img:hover {
+    transform:  scale(1.1);
+    transition: 1s;
+}
+
+.trainer__bio h3 {
+    font-size: 1rem;
+}
+
+.trainer__bio h3:first-child{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.trainer__value {
+    margin-left: 4rem;
+}
+
+.trainer__value h3 {
+    font-size: 1rem;
+    margin-bottom: 0.9rem;
+}
+
+.trainer__value span, .trainer__bio span {
+    color: gray;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.about p {
+    font-size: 0.8rem;
+}
+
+/* .medical p {
+    font-size: 0.8rem;
+}
+
+.location p {
+    font-size: 0.8rem;
+} */
+
+span {
+    font-weight: bold;
+    color: gray;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.expertise p {
+    display: inline-block;
+    border: 1px solid purple;
+    border-radius: 20px;
+    color: purple;
+    padding: 0.2rem 0.8rem;
+    margin-right: 0.5rem;
+}
+.availability p {
+    font-size: 0.8rem;
+}
+
+.availability h3 {
+    display: inline-block;
+}
+
+.card {
+    border: 1px solid gray;
+    padding: 0.6rem 0;
+    text-align:center ;
+    margin-bottom: 1rem;
+}
+
+.note p {
+    padding-bottom: 0.5rem;
+}
+
+.card span {
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.5rem;
+}
+
+.cards {
+    border: 1px solid gray;
+    padding: 0.6rem 0;
+    text-align:center ;
+    margin-bottom: 1rem;
+}
+
+.days p {
+    border-bottom: 1px solid rgb(243, 233, 233);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.languages {
+    border-bottom: 1px solid rgb(243, 233, 233);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.education p {
+    border-bottom: 1px solid rgb(243, 233, 233);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+
