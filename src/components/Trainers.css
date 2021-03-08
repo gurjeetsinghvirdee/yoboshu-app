@@ -1,9 +1,10 @@
 
 .trainers{
     display: flex;
-    max-width: 70rem;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 2rem auto;
+    padding: 0 1rem;
 }
 /* 
 .row_center {

@@ -30,7 +30,7 @@ const data = {
                 popularplan:{session:"12",charge:"276",save:"8%"},
                 bestvalueplan:{session:"24",charge:"255",save:"15%"}
             },
-            note:"Above charges are for in - person, it does not incluse group discount",
+            note:"Above charges are for in - person, it does not include group discount",
             moneyback:"Money Back Guarantee",
             trainerinterest:["ACTORS", "MEN", "WOMEN", "BEGINNERS", "YOUTH"]
         },
@@ -39,7 +39,7 @@ const data = {
             name:'Jeet Selal',
             img1:"https://scontent.fbho2-1.fna.fbcdn.net/v/t1.0-9/16406869_1301722049884235_8398102982763601468_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=174925&_nc_ohc=M-lX82Qpx7sAX-ypvRN&_nc_ht=scontent.fbho2-1.fna&oh=19db3c352b43af1333f9c134f1365dda&oe=606BE482",
             img2:"https://scontent.fbho2-1.fna.fbcdn.net/v/t1.0-9/125797880_3486677341388684_1946089942507582019_o.jpg?_nc_cat=102&ccb=1-3&_nc_sid=9267fe&_nc_ohc=l2KXiYRXWgIAX8coE04&_nc_ht=scontent.fbho2-1.fna&oh=9226d90c8a493a4d9c028df4e232e293&oe=606C684C",
-            img3:"https://scontent.fbho2-1.fna.fbcdn.net/v/t1.0-9/144659799_3682695948453488_960044171094777605_o.jpg?_nc_cat=110&ccb=1-3&_nc_sid=9267fe&_nc_ohc=cgG9r-kbynoAX9G0c8h&_nc_ht=scontent.fbho2-1.fna&oh=27048f83eebddb6ccd2c21ab2023c9bf&oe=606C120A",
+            img3:"https://instagram.fbho2-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/157005015_1374460496237711_1544727770309456404_n.jpg?tp=1&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=7AGjQ3-SBh0AX_WLiNm&oh=2425efd82b38c2615a7518de7b977901&oe=606F7A3B",
             img4:"https://scontent.fbho2-1.fna.fbcdn.net/v/t1.0-9/137613097_3640226436033773_6814512580100154031_o.jpg?_nc_cat=100&ccb=1-3&_nc_sid=9267fe&_nc_ohc=DVp6EVECG-oAX-4loqH&_nc_ht=scontent.fbho2-1.fna&oh=035ec629991fb1c9f9d8d89cdb459222&oe=606B693A",
             pricing:'500',
             experience:'6+ years',
@@ -63,7 +63,7 @@ const data = {
                 popularplan:{session:"12",charge:"276",save:"8%"},
                 bestvalueplan:{session:"24",charge:"255",save:"15%"}
             },
-            note:"Above charges are for in - person, it does not incluse group discount",
+            note:"Above charges are for in - person, it does not include group discount",
             moneyback:"Money Back Guarantee",
             trainerinterest:["MILITARY", "OVERWEIGHT", "BRIDE TO BE", "OBESE", "MODEL"]
         },

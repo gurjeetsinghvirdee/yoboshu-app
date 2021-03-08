@@ -17,7 +17,7 @@ h4{
 }
 .trainer__img > img{
     height: 5rem;
-    
+    margin-right: 1rem;
     object-fit: contain;
     border-radius: 50%;
 }

@@ -17,9 +17,9 @@ function TrainerMain() {
         <div className="trainermain">
             <div className="trainermain__img">
                 <img src={trainer.img1} alt={trainer}/>
-                <img src={trainer.img2} alt={trainer}/>
-                <img src={trainer.img3} alt={trainer}/>
-                <img src={trainer.img4} alt={trainer}/>
+                <img className="img_disable" src={trainer.img2} alt={trainer}/>
+                <img className="img_disable"src={trainer.img3} alt={trainer}/>
+                <img className="img_disable" src={trainer.img4} alt={trainer}/>
             </div>
             <div className="trainermain__right">
                 <div className="trainermain__info">
@@ -50,7 +50,7 @@ function TrainerMain() {
                     <span>My Location</span>
                     <p><MdLocationOn className="icons"/>{trainer.location}</p>
                 </div>
-                <div className="traing">
+                <div className="training">
                     <span>Mode of Training</span>
                     <p><GoDeviceCameraVideo className="icons"/>{trainer.modeoftraining1}</p>
                     <p><AiFillHome className="icons"/>{trainer.modeoftraining2}</p>

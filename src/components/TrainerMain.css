@@ -5,6 +5,7 @@
 .trainermain__img {
     width: 60%;
     text-align: center;
+    margin: 2rem 0.5rem 1rem 2rem;
 }
 
 .trainermain__info {
@@ -27,9 +28,9 @@
 }
 
 .trainermain__img >img {
-    margin: 2em 0.5em 1em 0.5em;
-    width: 20em;
-    height: 20em;
+    margin: 0 0.5em;
+    width: 20rem;
+    height: 20rem;
     border: 1px solid rgba(211,211,211,0.5);
     object-fit: contain;	
 }
@@ -64,16 +65,8 @@
 }
 
 .about p {
-    font-size: 0.8rem;
+    font-size: 0.89rem;
 }
-
-/* .medical p {
-    font-size: 0.8rem;
-}
-
-.location p {
-    font-size: 0.8rem;
-} */
 
 span {
     font-weight: bold;
@@ -85,14 +78,19 @@ span {
 .expertise p {
     display: inline-block;
     border: 1px solid purple;
+    font-size: .8rem;
     border-radius: 20px;
     color: purple;
     padding: 0.2rem 0.8rem;
     margin-right: 0.5rem;
 }
 
+.medical p {
+    font-size: 0.89rem;
+}
+
 .availability p {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
 }
 
 .availability h3 {
@@ -112,14 +110,18 @@ span {
 
 .card span {
     color: whitesmoke;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(236, 177, 236);
     padding-bottom: 0.5rem;
 }
 
 .card {
+    box-shadow: 0 10px 10px -5px;
     background-image: linear-gradient(to right, #9c8adc, #9582d8, #8f7bd5, #8873d1, #816ccd, #8066cd, #7f60cc, #7f5acb, #8553cd, #8b4cce, #9243ce, #9a38ce);
 }
 
+/* .cards {
+    box-shadow: 0 10px 10px -5px;
+} */
 
 .cards span {
     border: 1px solid gray;
@@ -173,6 +175,14 @@ span {
     outline: none;
 }
 
+.training p {
+    font-size: .89rem;
+}
+
+.location p {
+    font-size: .89rem;
+}
+
 .join button {
     background-color: rgb(184, 184, 231);
 }
@@ -181,6 +191,45 @@ span {
     text-decoration: none;
     border: none;
     color: white;
+}
+@media screen and (max-width: 980px) {
+    .trainermain__img >img {
+        width: 15rem;
+        
+    }
+}
+@media screen and (max-width: 1259px) {
+    .trainermain__img {
+        width: 40%;
+        text-align: center;
+    }
+    .trainermain__right {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .trainermain{
+        display: block;
+    }
+    .trainermain__img {
+        width: 100%;
+        margin: 0.5rem;
+    }
+    .trainermain__right {
+        min-width: 100%;
+        margin: 0.5rem;
+    }
+
+}
+@media screen and (max-width: 530px) {
+    .trainermain__img >img {
+        width: 100%;
+        height: 100%;
+    }
+    .trainermain__img .img_disable{
+        display: none;
+    }
+
 }
 
 

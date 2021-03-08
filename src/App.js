@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header'
+import Home from './components/Home'
 import Trainers from './components/Trainers';
 import TrainerMain from './components/TrainerMain';
 
@@ -10,9 +11,9 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header/>
-        <Switch>
+        <Switch>  
           <Route exact path="/">
-            <Trainers/>
+            <Home />
           </Route>
           <Route path="/trainers">
             <Trainers/>

@@ -1,16 +1,13 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 6%;
+    align-items: center;
+    padding: 1rem 6%;
+    position: relative;
     background-image: linear-gradient(to right, #9c8adc, #9582d8, #8f7bd5, #8873d1, #816ccd, #8066cd, #7f60cc, #7f5acb, #8553cd, #8b4cce, #9243ce, #9a38ce);
 }
-
-.nav {
-    padding: 30px;
-}
-
-.nav_logo {
-    padding-top: 20px;
+.hamburger{
+    display: none;
 }
 
 .nav_logo img{
@@ -28,3 +25,29 @@
     position: relative;
     top: 2px;
 }
+.menu{
+    color: white;
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 770px) {
+    .nav{
+        display: none;
+    }.hamburger{
+        display: block;
+    }#hidden {
+        position: absolute;
+        top: 81px;
+        right: 0;
+        z-index: 99;
+        height: 220px;
+        background-image: linear-gradient(to right, #9c8adc, #9582d8, #8f7bd5, #8873d1, #816ccd, #8066cd, #7f60cc, #7f5acb, #8553cd, #8b4cce, #9243ce, #9a38ce);
+        display: flex;
+        flex-direction: column;
+    } 
+    #hidden .link{
+        display: block;
+        padding: 0.8rem;
+    }
+}
+
+
