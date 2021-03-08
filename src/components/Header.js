@@ -16,11 +16,11 @@ function Header() {
             </div>
             <div className="nav" id={showLinks? "hidden" : ""}>
                 <nav className="header_nav">
-                    <Link to="/" className="link"><AiFillHome className="icon"/> Home</Link>
+                    <Link to="/"  onClick={() => setShowLinks(!showLinks)}className="link"><AiFillHome className="icon"/> Home</Link>
                     <Link to="/trainers" onClick={() => setShowLinks(!showLinks)}   className="link"><FaRunning className="icon"/> Trainers</Link>
-                    <Link to="#"  className="link"><FaUsers className="icon"/> Boot Camp</Link>
-                    <Link to="#"  className="link"><BsGraphUp className="icon"/> Fitness tools</Link>
-                    <Link to="#" className="link"><RiAccountCircleFill className="icon"/> My Account</Link>
+                    <Link to="/bootcamp"   onClick={() => setShowLinks(!showLinks)}className="link"><FaUsers className="icon"/> Boot Camp</Link>
+                    <Link to="/fitnesstools"   onClick={() => setShowLinks(!showLinks)}className="link"><BsGraphUp className="icon"/> Fitness tools</Link>
+                    <Link to="/myaccount"  onClick={() => setShowLinks(!showLinks)}className="link"><RiAccountCircleFill className="icon"/> My Account</Link>
                 </nav>
             </div>
             <div onClick={() => setShowLinks(!showLinks)}  className="hamburger">
