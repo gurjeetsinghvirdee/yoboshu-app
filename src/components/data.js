@@ -73,7 +73,7 @@ const data = {
             img1:"https://scontent-atl3-2.cdninstagram.com/v/t51.2885-19/53835576_1165352050303168_3007679307200856064_n.jpg?_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_ohc=OlLaxdgqO74AX_Orj5H&oh=b8d941099109eacffc2a7d0160aee490&oe=606D9C66",
             img2:"https://instagram.fbho2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/150731682_113514797320743_5341845260498267043_n.jpg?tp=1&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=JCJou54oMjgAX97lzBL&oh=f98c9066b3c06ecdeb1a4849e62bc877&oe=606EFFB7",
             img3:"https://instagram.fbho2-1.fna.fbcdn.net/v/t51.2885-15/e35/150429893_2557418551221904_7923148496862134284_n.jpg?tp=1&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=FwNf2EuaX00AX8mASyP&oh=6978636b92321119fe593ed9f9d908b7&oe=606DA381",
-            img4:"https://instagram.fbho2-1.fna.fbcdn.net/v/t51.2885-15/e35/144794612_2825021464449740_2688920393733357610_n.jpg?tp=1&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=xokduVaC0yAAX9ejsnN&oh=e7967ff419750327e4f417de08229e34&oe=60702EF4",
+            // img4:"https://instagram.fbho2-1.fna.fbcdn.net/v/t51.2885-15/e35/144794612_2825021464449740_2688920393733357610_n.jpg?tp=1&_nc_ht=instagram.fbho2-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=xokduVaC0yAAX9ejsnN&oh=e7967ff419750327e4f417de08229e34&oe=60702EF4",
             pricing:'700',
             experience:'8+ years',
             value:'Certified',
